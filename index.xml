@@ -1,19 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>Zergling_73&#39;s Blog</title>
-    <link>https://Makino-Shiro.github.io/hugo-blog/</link>
-    <description>Recent content on Zergling_73&#39;s Blog</description>
-    <generator>Hugo -- 0.145.0</generator>
-    <language>zh-tw</language>
-    <lastBuildDate>Thu, 03 Apr 2025 16:00:31 +0800</lastBuildDate>
-    <atom:link href="https://Makino-Shiro.github.io/hugo-blog/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Hello World</title>
-      <link>https://Makino-Shiro.github.io/hugo-blog/posts/hello-world/</link>
-      <pubDate>Thu, 03 Apr 2025 16:00:31 +0800</pubDate>
-      <guid>https://Makino-Shiro.github.io/hugo-blog/posts/hello-world/</guid>
-      <description></description>
-    </item>
-  </channel>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Zergling_73&#39;s Blog</title>
+        <link>https://Makino-Shiro.github.io/hugo-blog/</link>
+        <description>這裡是主人的技術部落格，目前正在努力學習與佈置中喵～</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-tw</language><lastBuildDate>Thu, 03 Apr 2025 16:00:31 &#43;0800</lastBuildDate>
+            <atom:link href="https://Makino-Shiro.github.io/hugo-blog/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+    <title>Hello World</title>
+    <link>https://Makino-Shiro.github.io/hugo-blog/posts/hello-world/</link>
+    <pubDate>Thu, 03 Apr 2025 16:00:31 &#43;0800</pubDate><author>
+        <name>作者</name>
+    </author><guid>https://Makino-Shiro.github.io/hugo-blog/posts/hello-world/</guid>
+    <description><![CDATA[]]></description>
+</item></channel>
 </rss>

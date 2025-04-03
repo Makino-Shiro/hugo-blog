@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url>
-    <loc>https://Makino-Shiro.github.io/hugo-blog/posts/hello-world/</loc>
-    <lastmod>2025-04-03T16:00:31+08:00</lastmod>
-  </url><url>
-    <loc>https://Makino-Shiro.github.io/hugo-blog/posts/</loc>
-    <lastmod>2025-04-03T16:00:31+08:00</lastmod>
-  </url><url>
-    <loc>https://Makino-Shiro.github.io/hugo-blog/</loc>
-    <lastmod>2025-04-03T16:00:31+08:00</lastmod>
-  </url><url>
-    <loc>https://Makino-Shiro.github.io/hugo-blog/categories/</loc>
-  </url><url>
-    <loc>https://Makino-Shiro.github.io/hugo-blog/tags/</loc>
-  </url>
-</urlset>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <sitemap>
+    <loc>https://Makino-Shiro.github.io/hugo-blog/zh-tw/sitemap.xml</loc>
+    
+      <lastmod>2025-04-03T16:00:31+08:00</lastmod>
+    
+  </sitemap>
+  
+  <sitemap>
+    <loc>https://Makino-Shiro.github.io/hugo-blog/en/sitemap.xml</loc>
+    
+  </sitemap>
+  
+</sitemapindex>
