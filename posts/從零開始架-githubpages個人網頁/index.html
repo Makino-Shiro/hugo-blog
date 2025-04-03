@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noodp" /><title>從零開始架 GitHub Pages 個人網頁 - Zergling_73&#39;s Blog</title><meta name="Description" content="這裡是主人的技術部落格，目前正在努力學習與佈置中喵～"><meta property="og:url" content="https://Makino-Shiro.github.io/hugo-blog/posts/%E5%BE%9E%E9%9B%B6%E9%96%8B%E5%A7%8B%E6%9E%B6-githubpages%E5%80%8B%E4%BA%BA%E7%B6%B2%E9%A0%81/">
+  <meta property="og:site_name" content="Zergling_73&#39;s Blog">
+  <meta property="og:title" content="從零開始架 GitHub Pages 個人網頁">
+  <meta property="og:description" content="從零開始架–Github Pages個人網頁介紹：只要有Github帳號，人人都可以免費透過Github Pages功能架設專屬於你的靜態個人網頁，用來展示你的特色、專長、興趣以及愛好！使用工具：1. Visual Studio Code(用來編輯網頁內容)2. 網頁模板(可自製，也可使用現成模板，例如：HTML5UP等…)3. Github(用來部署個人網頁)第一步驟：下載模板，這裡用HTML5UP來作範例：到HTML5UP中選自己喜歡的模板，可以點&#34;Live Demo&#34;來觀看樣板，選好後點選&#34;Free Download&#34;即可下載，下載後解壓縮會出現類似下圖的檔案：
+我們需要修改的只有&#34;index.html&#34;檔案(注意！這個檔案名稱不可以更改)，現在我們先打開VSCode，按快捷鍵(ctrl&#43;k&#43;o)開啟檔案所在的資料夾，開啟後從左方欄位中選取&#34;index.html&#34;檔案後就可以編輯了，我推薦安裝一個名為LiveServer的插件安裝完成後回到編輯程式碼的頁面，點擊畫面右下角的Go Live就可以一邊編輯一邊透過網頁實時查看編輯現況。如果需要的話 也可以參考我的網頁Repo：Makino-Shiro第二步驟，上傳至Github Pages：開啟Github(沒有帳號請先註冊)，點擊右上角頭像，選取&#34;Your Repositories&#34;後點擊畫面中的，進入下圖這畫面：幫你的專案命名，命名有規則{username.github.io}，例如我的帳號名稱是Makino-Shiro，我的專案名稱就必須命名為&#34;Makino-Shiro.github.io&#34;(這也會是完成後你的網址)，並注意要選取Public選項，完成後點擊&#34;Create repository&#34;。接下來你會看到這個畫面：點擊後上傳剛剛編輯完成的模板的檔案：完成後點擊Commit Changes後應該會長這樣如此便大功告成了，Github Pages會自動幫你部署(會需要一點時間)如果你不想用{.github.io}的網址格式，可以購買網域(例如向CloudFlare購買)後，綁定DNS便可用你的網域訪問網站了，例如我的網址是{Makino-Shiro.github.io}，也可以用{zergling73.com}來訪問我的網頁！有任何問題也歡迎聯繫我！">
+  <meta property="og:locale" content="zh_tw">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-04-03T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-04-03T00:00:00+00:00">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="從零開始架 GitHub Pages 個人網頁">
+  <meta name="twitter:description" content="從零開始架–Github Pages個人網頁介紹：只要有Github帳號，人人都可以免費透過Github Pages功能架設專屬於你的靜態個人網頁，用來展示你的特色、專長、興趣以及愛好！使用工具：1. Visual Studio Code(用來編輯網頁內容)2. 網頁模板(可自製，也可使用現成模板，例如：HTML5UP等…)3. Github(用來部署個人網頁)第一步驟：下載模板，這裡用HTML5UP來作範例：到HTML5UP中選自己喜歡的模板，可以點&#34;Live Demo&#34;來觀看樣板，選好後點選&#34;Free Download&#34;即可下載，下載後解壓縮會出現類似下圖的檔案：
+我們需要修改的只有&#34;index.html&#34;檔案(注意！這個檔案名稱不可以更改)，現在我們先打開VSCode，按快捷鍵(ctrl&#43;k&#43;o)開啟檔案所在的資料夾，開啟後從左方欄位中選取&#34;index.html&#34;檔案後就可以編輯了，我推薦安裝一個名為LiveServer的插件安裝完成後回到編輯程式碼的頁面，點擊畫面右下角的Go Live就可以一邊編輯一邊透過網頁實時查看編輯現況。如果需要的話 也可以參考我的網頁Repo：Makino-Shiro第二步驟，上傳至Github Pages：開啟Github(沒有帳號請先註冊)，點擊右上角頭像，選取&#34;Your Repositories&#34;後點擊畫面中的，進入下圖這畫面：幫你的專案命名，命名有規則{username.github.io}，例如我的帳號名稱是Makino-Shiro，我的專案名稱就必須命名為&#34;Makino-Shiro.github.io&#34;(這也會是完成後你的網址)，並注意要選取Public選項，完成後點擊&#34;Create repository&#34;。接下來你會看到這個畫面：點擊後上傳剛剛編輯完成的模板的檔案：完成後點擊Commit Changes後應該會長這樣如此便大功告成了，Github Pages會自動幫你部署(會需要一點時間)如果你不想用{.github.io}的網址格式，可以購買網域(例如向CloudFlare購買)後，綁定DNS便可用你的網域訪問網站了，例如我的網址是{Makino-Shiro.github.io}，也可以用{zergling73.com}來訪問我的網頁！有任何問題也歡迎聯繫我！">
+<meta name="application-name" content="Zergling_73&#39;s Blog">
+<meta name="apple-mobile-web-app-title" content="Zergling_73&#39;s Blog">
+
+<meta name="theme-color" content="#f8f8f8"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+
+<link rel="canonical" href="https://Makino-Shiro.github.io/hugo-blog/posts/%E5%BE%9E%E9%9B%B6%E9%96%8B%E5%A7%8B%E6%9E%B6-githubpages%E5%80%8B%E4%BA%BA%E7%B6%B2%E9%A0%81/" /><link rel="next" href="https://Makino-Shiro.github.io/hugo-blog/posts/hello-world/" />
+<link rel="stylesheet" href="/hugo-blog/css/main.min.css"><link rel="stylesheet" href="/hugo-blog/css/style.min.css"><script type="application/ld+json">{"@context": "https://schema.org","@type": "BlogPosting",
+        "headline": "從零開始架 GitHub Pages 個人網頁",
+        "inLanguage": "zh-tw",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://Makino-Shiro.github.io/hugo-blog/posts/%E5%BE%9E%E9%9B%B6%E9%96%8B%E5%A7%8B%E6%9E%B6-githubpages%E5%80%8B%E4%BA%BA%E7%B6%B2%E9%A0%81/"
+        },"genre": "posts","wordcount":  38 ,
+        "url": "https://Makino-Shiro.github.io/hugo-blog/posts/%E5%BE%9E%E9%9B%B6%E9%96%8B%E5%A7%8B%E6%9E%B6-githubpages%E5%80%8B%E4%BA%BA%E7%B6%B2%E9%A0%81/","datePublished": "2025-04-03T00:00:00+00:00","dateModified": "2025-04-03T00:00:00+00:00","publisher": {
+            "@type": "Organization",
+            "name": "作者"},"author": {
+                "@type": "Person",
+                "name": "作者",
+                "url": "/hugo-blog/"
+            },"description": ""
+    }</script></head>
+
+
+<body data-instant-intensity="viewport" class="tw-flex tw-min-h-screen tw-flex-col"><script type="text/javascript">
+    function setTheme(theme) {
+      document.body.setAttribute('theme', theme); 
+      document.documentElement.className = theme;
+      document.documentElement.style.setProperty('color-scheme', theme === 'light' ? 'light' : 'dark');
+      if (theme === 'light') {
+        document.documentElement.classList.remove('tw-dark')
+      } else {
+        document.documentElement.classList.add('tw-dark')
+      }
+      window.theme = theme;   
+      window.isDark = window.theme !== 'light' 
+    }
+    function saveTheme(theme) {window.localStorage && localStorage.setItem('theme', theme);}
+    function getMeta(metaName) {const metas = document.getElementsByTagName('meta'); for (let i = 0; i < metas.length; i++) if (metas[i].getAttribute('name') === metaName) return metas[i]; return '';}
+    if (window.localStorage && localStorage.getItem('theme')) {
+        let theme = localStorage.getItem('theme');
+        if (theme === 'light' || theme === 'dark') {
+        setTheme(theme);
+        } else {
+            if ((window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+                setTheme('dark');
+            } else {
+                setTheme('light');
+            }
+        }
+      } else { 
+        if ('dark' === 'light' || 'dark' === 'dark') 
+            setTheme('dark'), saveTheme('dark'); 
+        else saveTheme('auto'), window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? setTheme('dark') : setTheme('light');
+    }
+    let metaColors = {'light': '#f8f8f8','dark': '#161b22'}
+    getMeta('theme-color').content = metaColors[document.body.getAttribute('theme')];
+    window.switchThemeEventSet = new Set()
+</script><div id="back-to-top"></div>
+    <div id="mask"></div><header class="desktop print:!tw-hidden" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/hugo-blog/" title="Zergling_73&#39;s Blog">Zergling_73&#39;s Blog</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><button class="menu-item theme-switch" aria-label="切換主題">
+                    <svg class="icon"
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M8 256c0 136.966 111.033 248 248 248s248-111.034 248-248S392.966 8 256 8 8 119.033 8 256zm248 184V72c101.705 0 184 82.311 184 184 0 101.705-82.311 184-184 184z"/></svg>
+                </button></div>
+        </div>
+    </div>
+</header><header class="mobile print:!tw-hidden" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/hugo-blog/" title="Zergling_73&#39;s Blog">Zergling_73&#39;s Blog</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><button class="menu-item theme-switch tw-w-full" aria-label="切換主題">
+                <svg class="icon"
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M8 256c0 136.966 111.033 248 248 248s248-111.034 248-248S392.966 8 256 8 8 119.033 8 256zm248 184V72c101.705 0 184 82.311 184 184 0 101.705-82.311 184-184 184z"/></svg>
+            </button></div>
+    </div>
+</header>
+<div class="search-dropdown desktop">
+    <div id="search-dropdown-desktop"></div>
+</div>
+<div class="search-dropdown mobile">
+    <div id="search-dropdown-mobile"></div>
+</div><main class="tw-mx-4 tw-flex-1"><dialog id="toc-dialog" class="tw-max-w-full tw-w-full tw-max-h-full tw-h-full tw-ml-16">
+        <div class="toc tw-mx-4 tw-max-w-full">
+            <h2 class="tw-mx-0 tw-my-6 tw-uppercase tw-text-2xl">目錄</h2>
+            <div class="toc-content"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#介紹">介紹：</a>
+      <ul>
+        <li><a href="#只要有github帳號人人都可以免費透過github-pages功能架設專屬於你的靜態個人網頁用來展示你的特色專長興趣以及愛好">只要有Github帳號，人人都可以免費透過Github Pages功能架設專屬於你的靜態個人網頁，用來展示你的特色、專長、興趣以及愛好！</a></li>
+      </ul>
+    </li>
+    <li><a href="#使用工具">使用工具：</a>
+      <ul>
+        <li><a href="#1-visual-studio-code用來編輯網頁內容">1. Visual Studio Code(用來編輯網頁內容)</a></li>
+        <li><a href="#2-網頁模板可自製也可使用現成模板例如html5up等">2. 網頁模板(可自製，也可使用現成模板，例如：<a href="https://html5up.net/">HTML5UP</a>等&hellip;)</a></li>
+        <li><a href="#3-github用來部署個人網頁">3. Github(用來部署個人網頁)</a></li>
+      </ul>
+    </li>
+    <li><a href="#第一步驟下載模板這裡用html5up來作範例">第一步驟：下載模板，這裡用HTML5UP來作範例：</a>
+      <ul>
+        <li><a href="#到html5up中選自己喜歡的模板可以點live-demo來觀看樣板選好後點選free-download即可下載下載後解壓縮會出現類似下圖的檔案">到<a href="https://html5up.net/">HTML5UP</a>中選自己喜歡的模板，可以點&quot;Live Demo&quot;來觀看樣板，選好後點選&quot;Free Download&quot;即可下載，下載後解壓縮會出現類似下圖的檔案：</a></li>
+        <li><a href="#我們需要修改的只有indexhtml檔案注意這個檔案名稱不可以更改現在我們先打開vscode按快捷鍵ctrlko開啟檔案所在的資料夾開啟後從左方欄位中選取indexhtml檔案後就可以編輯了我推薦安裝一個名為liveserver的插件image">我們需要修改的只有&quot;index.html&quot;檔案(注意！這個檔案名稱不可以更改)，現在我們先打開VSCode，按快捷鍵(ctrl+k+o)開啟檔案所在的資料夾，開啟後從左方欄位中選取&quot;index.html&quot;檔案後就可以編輯了，我推薦安裝一個名為LiveServer的插件<img src="https://hackmd.io/_uploads/Syogehf6Jg.png" alt="image"></a></li>
+        <li><a href="#安裝完成後回到編輯程式碼的頁面點擊畫面右下角的go-liveimage">安裝完成後回到編輯程式碼的頁面，點擊畫面右下角的Go Live<img src="https://hackmd.io/_uploads/BkAQg2MTke.png" alt="image"></a></li>
+        <li><a href="#就可以一邊編輯一邊透過網頁實時查看編輯現況">就可以一邊編輯一邊透過網頁實時查看編輯現況。</a></li>
+        <li><a href="#如果需要的話-也可以參考我的網頁repomakino-shiro">如果需要的話 也可以參考我的網頁Repo：<a href="https://github.com/Makino-Shiro/Makino-Shiro.github.io">Makino-Shiro</a></a></li>
+      </ul>
+    </li>
+    <li><a href="#第二步驟上傳至github-pages">第二步驟，上傳至Github Pages：</a>
+      <ul>
+        <li><a href="#開啟github沒有帳號請先註冊點擊右上角頭像選取your-repositories後點擊畫面中的image進入下圖這畫面image">開啟<a href="https://github.com">Github</a>(沒有帳號請先註冊)，點擊右上角頭像，選取&quot;Your Repositories&quot;後點擊畫面中的<img src="https://hackmd.io/_uploads/B1ToehM6Jl.png" alt="image">，進入下圖這畫面：<img src="https://hackmd.io/_uploads/ryv2e2fT1e.png" alt="image"></a></li>
+        <li><a href="#幫你的專案命名命名有規則usernamegithubio例如我的帳號名稱是makino-shiro我的專案名稱就必須命名為makino-shirogithubio這也會是完成後你的網址並注意要選取public選項完成後點擊create-repository">幫你的專案命名，命名有規則{username.github.io}，例如我的帳號名稱是Makino-Shiro，我的專案名稱就必須命名為&quot;Makino-Shiro.github.io&quot;(這也會是完成後你的網址)，並注意要選取Public選項，完成後點擊&quot;Create repository&quot;。</a></li>
+        <li><a href="#接下來你會看到這個畫面image">接下來你會看到這個畫面：<img src="https://hackmd.io/_uploads/SJz6e3GT1l.png" alt="image"></a></li>
+        <li><a href="#點擊image後上傳剛剛編輯完成的模板的檔案image">點擊<img src="https://hackmd.io/_uploads/ByQCg3Gpyl.png" alt="image">後上傳剛剛編輯完成的模板的檔案：<img src="https://hackmd.io/_uploads/Ske1W2z6Je.png" alt="image"></a></li>
+        <li><a href="#完成後點擊commit-changes後應該會長這樣image">完成後點擊Commit Changes後應該會長這樣<img src="https://hackmd.io/_uploads/Bk_1Wnfp1l.png" alt="image"></a></li>
+        <li><a href="#如此便大功告成了github-pages會自動幫你部署會需要一點時間">如此便大功告成了，Github Pages會自動幫你部署(會需要一點時間)</a></li>
+        <li><a href="#如果你不想用githubio的網址格式可以購買網域例如向cloudflare購買後綁定dns便可用你的網域訪問網站了例如我的網址是makino-shirogithubio也可以用zergling73com來訪問我的網頁">如果你不想用{.github.io}的網址格式，可以購買網域(例如向CloudFlare購買)後，綁定DNS便可用你的網域訪問網站了，例如我的網址是{Makino-Shiro.github.io}，也可以用{zergling73.com}來訪問我的網頁！</a></li>
+        <li><a href="#有任何問題也歡迎聯繫我">有任何問題也歡迎<a href="https://zergling73.com">聯繫我</a>！</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
+        </div>
+    </dialog><article class="page single print:!tw-w-full print:!tw-max-w-none print:!tw-m-0 print:!tw-p-0"><h1 class="single-title" data-pagefind-meta="date:2025-04-03" data-pagefind-body>從零開始架 GitHub Pages 個人網頁</h1><div class="post-meta">
+            <div class="post-meta-line">
+                <span class="post-author"><svg class="icon"
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm0 96c48.6 0 88 39.4 88 88s-39.4 88-88 88-88-39.4-88-88 39.4-88 88-88zm0 344c-58.7 0-111.3-26.6-146.5-68.2 18.8-35.4 55.6-59.8 98.5-59.8 2.4 0 4.8.4 7.1 1.1 13 4.2 26.6 6.9 40.9 6.9 14.3 0 28-2.7 40.9-6.9 2.3-.7 4.7-1.1 7.1-1.1 42.9 0 79.7 24.4 98.5 59.8C359.3 421.4 306.7 448 248 448z"/></svg><a href="/hugo-blog/" title="Author" rel=" author" class="author">作者</a>
+                </span></div>
+            <div class="post-meta-line"><svg class="icon"
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M148 288h-40c-6.6 0-12-5.4-12-12v-40c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12zm108-12v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm96 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm-96 96v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm-96 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm192 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm96-260v352c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V112c0-26.5 21.5-48 48-48h48V12c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v52h128V12c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v52h48c26.5 0 48 21.5 48 48zm-48 346V160H48v298c0 3.3 2.7 6 6 6h340c3.3 0 6-2.7 6-6z"/></svg>&nbsp;<time datetime="2025-04-03">2025-04-03</time>&nbsp;<svg class="icon"
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M402.3 344.9l32-32c5-5 13.7-1.5 13.7 5.7V464c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V112c0-26.5 21.5-48 48-48h273.5c7.1 0 10.7 8.6 5.7 13.7l-32 32c-1.5 1.5-3.5 2.3-5.7 2.3H48v352h352V350.5c0-2.1.8-4.1 2.3-5.6zm156.6-201.8L296.3 405.7l-90.4 10c-26.2 2.9-48.5-19.2-45.6-45.6l10-90.4L432.9 17.1c22.9-22.9 59.9-22.9 82.7 0l43.2 43.2c22.9 22.9 22.9 60 .1 82.8zM460.1 174L402 115.9 216.2 301.8l-7.3 65.3 65.3-7.3L460.1 174zm64.8-79.7l-43.2-43.2c-4.1-4.1-10.8-4.1-14.8 0L436 82l58.1 58.1 30.9-30.9c4-4.2 4-10.8-.1-14.9z"/></svg>&nbsp;<time datetime="2025-04-03">2025-04-03</time>&nbsp;<svg class="icon"
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M497.9 142.1l-46.1 46.1c-4.7 4.7-12.3 4.7-17 0l-111-111c-4.7-4.7-4.7-12.3 0-17l46.1-46.1c18.7-18.7 49.1-18.7 67.9 0l60.1 60.1c18.8 18.7 18.8 49.1 0 67.9zM284.2 99.8L21.6 362.4.4 483.9c-2.9 16.4 11.4 30.6 27.8 27.8l121.5-21.3 262.6-262.6c4.7-4.7 4.7-12.3 0-17l-111-111c-4.8-4.7-12.4-4.7-17.1 0zM124.1 339.9c-5.5-5.5-5.5-14.3 0-19.8l154-154c5.5-5.5 14.3-5.5 19.8 0s5.5 14.3 0 19.8l-154 154c-5.5 5.5-14.3 5.5-19.8 0zM88 424h48v36.3l-64.5 11.3-31.1-31.1L51.7 376H88v48z"/></svg>&nbsp;約 38 字&nbsp;
+                    <svg class="icon"
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm0 448c-110.5 0-200-89.5-200-200S145.5 56 256 56s200 89.5 200 200-89.5 200-200 200zm61.8-104.4l-84.9-61.7c-3.1-2.3-4.9-5.9-4.9-9.7V116c0-6.6 5.4-12 12-12h32c6.6 0 12 5.4 12 12v141.7l66.8 48.6c5.4 3.9 6.5 11.4 2.6 16.8L334.6 349c-3.9 5.3-11.4 6.5-16.8 2.6z"/></svg>&nbsp;預計閱讀 1 分鐘&nbsp;</div>
+        </div><div class="content" id="content" data-pagefind-body><h1 id="從零開始架" class="headerLink">
+    <a href="#%e5%be%9e%e9%9b%b6%e9%96%8b%e5%a7%8b%e6%9e%b6" class="header-mark"></a><em>從零開始架&ndash;Github Pages個人網頁</em></h1><h2 id="介紹" class="headerLink">
+    <a href="#%e4%bb%8b%e7%b4%b9" class="header-mark"></a>介紹：</h2><h3 id="只要有github帳號人人都可以免費透過github-pages功能架設專屬於你的靜態個人網頁用來展示你的特色專長興趣以及愛好" class="headerLink">
+    <a href="#%e5%8f%aa%e8%a6%81%e6%9c%89github%e5%b8%b3%e8%99%9f%e4%ba%ba%e4%ba%ba%e9%83%bd%e5%8f%af%e4%bb%a5%e5%85%8d%e8%b2%bb%e9%80%8f%e9%81%8egithub-pages%e5%8a%9f%e8%83%bd%e6%9e%b6%e8%a8%ad%e5%b0%88%e5%b1%ac%e6%96%bc%e4%bd%a0%e7%9a%84%e9%9d%9c%e6%85%8b%e5%80%8b%e4%ba%ba%e7%b6%b2%e9%a0%81%e7%94%a8%e4%be%86%e5%b1%95%e7%a4%ba%e4%bd%a0%e7%9a%84%e7%89%b9%e8%89%b2%e5%b0%88%e9%95%b7%e8%88%88%e8%b6%a3%e4%bb%a5%e5%8f%8a%e6%84%9b%e5%a5%bd" class="header-mark"></a>只要有Github帳號，人人都可以免費透過Github Pages功能架設專屬於你的靜態個人網頁，用來展示你的特色、專長、興趣以及愛好！</h3><h2 id="使用工具" class="headerLink">
+    <a href="#%e4%bd%bf%e7%94%a8%e5%b7%a5%e5%85%b7" class="header-mark"></a>使用工具：</h2><h3 id="1-visual-studio-code用來編輯網頁內容" class="headerLink">
+    <a href="#1-visual-studio-code%e7%94%a8%e4%be%86%e7%b7%a8%e8%bc%af%e7%b6%b2%e9%a0%81%e5%85%a7%e5%ae%b9" class="header-mark"></a>1. Visual Studio Code(用來編輯網頁內容)</h3><h3 id="2-網頁模板可自製也可使用現成模板例如html5up等" class="headerLink">
+    <a href="#2-%e7%b6%b2%e9%a0%81%e6%a8%a1%e6%9d%bf%e5%8f%af%e8%87%aa%e8%a3%bd%e4%b9%9f%e5%8f%af%e4%bd%bf%e7%94%a8%e7%8f%be%e6%88%90%e6%a8%a1%e6%9d%bf%e4%be%8b%e5%a6%82html5up%e7%ad%89" class="header-mark"></a>2. 網頁模板(可自製，也可使用現成模板，例如：<a href="https://html5up.net/" target="_blank" rel="noopener noreferrer">HTML5UP</a>等&hellip;)</h3><h3 id="3-github用來部署個人網頁" class="headerLink">
+    <a href="#3-github%e7%94%a8%e4%be%86%e9%83%a8%e7%bd%b2%e5%80%8b%e4%ba%ba%e7%b6%b2%e9%a0%81" class="header-mark"></a>3. Github(用來部署個人網頁)</h3><h2 id="第一步驟下載模板這裡用html5up來作範例" class="headerLink">
+    <a href="#%e7%ac%ac%e4%b8%80%e6%ad%a5%e9%a9%9f%e4%b8%8b%e8%bc%89%e6%a8%a1%e6%9d%bf%e9%80%99%e8%a3%a1%e7%94%a8html5up%e4%be%86%e4%bd%9c%e7%af%84%e4%be%8b" class="header-mark"></a>第一步驟：下載模板，這裡用HTML5UP來作範例：</h2><h3 id="到html5up中選自己喜歡的模板可以點live-demo來觀看樣板選好後點選free-download即可下載下載後解壓縮會出現類似下圖的檔案" class="headerLink">
+    <a href="#%e5%88%b0html5up%e4%b8%ad%e9%81%b8%e8%87%aa%e5%b7%b1%e5%96%9c%e6%ad%a1%e7%9a%84%e6%a8%a1%e6%9d%bf%e5%8f%af%e4%bb%a5%e9%bb%9elive-demo%e4%be%86%e8%a7%80%e7%9c%8b%e6%a8%a3%e6%9d%bf%e9%81%b8%e5%a5%bd%e5%be%8c%e9%bb%9e%e9%81%b8free-download%e5%8d%b3%e5%8f%af%e4%b8%8b%e8%bc%89%e4%b8%8b%e8%bc%89%e5%be%8c%e8%a7%a3%e5%a3%93%e7%b8%ae%e6%9c%83%e5%87%ba%e7%8f%be%e9%a1%9e%e4%bc%bc%e4%b8%8b%e5%9c%96%e7%9a%84%e6%aa%94%e6%a1%88" class="header-mark"></a>到<a href="https://html5up.net/" target="_blank" rel="noopener noreferrer">HTML5UP</a>中選自己喜歡的模板，可以點&quot;Live Demo&quot;來觀看樣板，選好後點選&quot;Free Download&quot;即可下載，下載後解壓縮會出現類似下圖的檔案：</h3><p><img class="tw-inline" loading="lazy" src='https://hackmd.io/_uploads/HyDkx2M6yx.png'   alt="image"  ></p>
+<h3 id="我們需要修改的只有indexhtml檔案注意這個檔案名稱不可以更改現在我們先打開vscode按快捷鍵ctrlko開啟檔案所在的資料夾開啟後從左方欄位中選取indexhtml檔案後就可以編輯了我推薦安裝一個名為liveserver的插件image" class="headerLink">
+    <a href="#%e6%88%91%e5%80%91%e9%9c%80%e8%a6%81%e4%bf%ae%e6%94%b9%e7%9a%84%e5%8f%aa%e6%9c%89indexhtml%e6%aa%94%e6%a1%88%e6%b3%a8%e6%84%8f%e9%80%99%e5%80%8b%e6%aa%94%e6%a1%88%e5%90%8d%e7%a8%b1%e4%b8%8d%e5%8f%af%e4%bb%a5%e6%9b%b4%e6%94%b9%e7%8f%be%e5%9c%a8%e6%88%91%e5%80%91%e5%85%88%e6%89%93%e9%96%8bvscode%e6%8c%89%e5%bf%ab%e6%8d%b7%e9%8d%b5ctrlko%e9%96%8b%e5%95%9f%e6%aa%94%e6%a1%88%e6%89%80%e5%9c%a8%e7%9a%84%e8%b3%87%e6%96%99%e5%a4%be%e9%96%8b%e5%95%9f%e5%be%8c%e5%be%9e%e5%b7%a6%e6%96%b9%e6%ac%84%e4%bd%8d%e4%b8%ad%e9%81%b8%e5%8f%96indexhtml%e6%aa%94%e6%a1%88%e5%be%8c%e5%b0%b1%e5%8f%af%e4%bb%a5%e7%b7%a8%e8%bc%af%e4%ba%86%e6%88%91%e6%8e%a8%e8%96%a6%e5%ae%89%e8%a3%9d%e4%b8%80%e5%80%8b%e5%90%8d%e7%82%baliveserver%e7%9a%84%e6%8f%92%e4%bb%b6image" class="header-mark"></a>我們需要修改的只有&quot;index.html&quot;檔案(注意！這個檔案名稱不可以更改)，現在我們先打開VSCode，按快捷鍵(ctrl+k+o)開啟檔案所在的資料夾，開啟後從左方欄位中選取&quot;index.html&quot;檔案後就可以編輯了，我推薦安裝一個名為LiveServer的插件<img class="tw-inline" loading="lazy" src='https://hackmd.io/_uploads/Syogehf6Jg.png'   alt="image"  ></h3><h3 id="安裝完成後回到編輯程式碼的頁面點擊畫面右下角的go-liveimage" class="headerLink">
+    <a href="#%e5%ae%89%e8%a3%9d%e5%ae%8c%e6%88%90%e5%be%8c%e5%9b%9e%e5%88%b0%e7%b7%a8%e8%bc%af%e7%a8%8b%e5%bc%8f%e7%a2%bc%e7%9a%84%e9%a0%81%e9%9d%a2%e9%bb%9e%e6%93%8a%e7%95%ab%e9%9d%a2%e5%8f%b3%e4%b8%8b%e8%a7%92%e7%9a%84go-liveimage" class="header-mark"></a>安裝完成後回到編輯程式碼的頁面，點擊畫面右下角的Go Live<img class="tw-inline" loading="lazy" src='https://hackmd.io/_uploads/BkAQg2MTke.png'   alt="image"  ></h3><h3 id="就可以一邊編輯一邊透過網頁實時查看編輯現況" class="headerLink">
+    <a href="#%e5%b0%b1%e5%8f%af%e4%bb%a5%e4%b8%80%e9%82%8a%e7%b7%a8%e8%bc%af%e4%b8%80%e9%82%8a%e9%80%8f%e9%81%8e%e7%b6%b2%e9%a0%81%e5%af%a6%e6%99%82%e6%9f%a5%e7%9c%8b%e7%b7%a8%e8%bc%af%e7%8f%be%e6%b3%81" class="header-mark"></a>就可以一邊編輯一邊透過網頁實時查看編輯現況。</h3><h3 id="如果需要的話-也可以參考我的網頁repomakino-shiro" class="headerLink">
+    <a href="#%e5%a6%82%e6%9e%9c%e9%9c%80%e8%a6%81%e7%9a%84%e8%a9%b1-%e4%b9%9f%e5%8f%af%e4%bb%a5%e5%8f%83%e8%80%83%e6%88%91%e7%9a%84%e7%b6%b2%e9%a0%81repomakino-shiro" class="header-mark"></a>如果需要的話 也可以參考我的網頁Repo：<a href="https://github.com/Makino-Shiro/Makino-Shiro.github.io" target="_blank" rel="noopener noreferrer">Makino-Shiro</a></h3><h2 id="第二步驟上傳至github-pages" class="headerLink">
+    <a href="#%e7%ac%ac%e4%ba%8c%e6%ad%a5%e9%a9%9f%e4%b8%8a%e5%82%b3%e8%87%b3github-pages" class="header-mark"></a>第二步驟，上傳至Github Pages：</h2><h3 id="開啟github沒有帳號請先註冊點擊右上角頭像選取your-repositories後點擊畫面中的image進入下圖這畫面image" class="headerLink">
+    <a href="#%e9%96%8b%e5%95%9fgithub%e6%b2%92%e6%9c%89%e5%b8%b3%e8%99%9f%e8%ab%8b%e5%85%88%e8%a8%bb%e5%86%8a%e9%bb%9e%e6%93%8a%e5%8f%b3%e4%b8%8a%e8%a7%92%e9%a0%ad%e5%83%8f%e9%81%b8%e5%8f%96your-repositories%e5%be%8c%e9%bb%9e%e6%93%8a%e7%95%ab%e9%9d%a2%e4%b8%ad%e7%9a%84image%e9%80%b2%e5%85%a5%e4%b8%8b%e5%9c%96%e9%80%99%e7%95%ab%e9%9d%a2image" class="header-mark"></a>開啟<a href="https://github.com" target="_blank" rel="noopener noreferrer">Github</a>(沒有帳號請先註冊)，點擊右上角頭像，選取&quot;Your Repositories&quot;後點擊畫面中的<img class="tw-inline" loading="lazy" src='https://hackmd.io/_uploads/B1ToehM6Jl.png'   alt="image"  >，進入下圖這畫面：<img class="tw-inline" loading="lazy" src='https://hackmd.io/_uploads/ryv2e2fT1e.png'   alt="image"  ></h3><h3 id="幫你的專案命名命名有規則usernamegithubio例如我的帳號名稱是makino-shiro我的專案名稱就必須命名為makino-shirogithubio這也會是完成後你的網址並注意要選取public選項完成後點擊create-repository" class="headerLink">
+    <a href="#%e5%b9%ab%e4%bd%a0%e7%9a%84%e5%b0%88%e6%a1%88%e5%91%bd%e5%90%8d%e5%91%bd%e5%90%8d%e6%9c%89%e8%a6%8f%e5%89%87usernamegithubio%e4%be%8b%e5%a6%82%e6%88%91%e7%9a%84%e5%b8%b3%e8%99%9f%e5%90%8d%e7%a8%b1%e6%98%afmakino-shiro%e6%88%91%e7%9a%84%e5%b0%88%e6%a1%88%e5%90%8d%e7%a8%b1%e5%b0%b1%e5%bf%85%e9%a0%88%e5%91%bd%e5%90%8d%e7%82%bamakino-shirogithubio%e9%80%99%e4%b9%9f%e6%9c%83%e6%98%af%e5%ae%8c%e6%88%90%e5%be%8c%e4%bd%a0%e7%9a%84%e7%b6%b2%e5%9d%80%e4%b8%a6%e6%b3%a8%e6%84%8f%e8%a6%81%e9%81%b8%e5%8f%96public%e9%81%b8%e9%a0%85%e5%ae%8c%e6%88%90%e5%be%8c%e9%bb%9e%e6%93%8acreate-repository" class="header-mark"></a>幫你的專案命名，命名有規則{username.github.io}，例如我的帳號名稱是Makino-Shiro，我的專案名稱就必須命名為&quot;Makino-Shiro.github.io&quot;(這也會是完成後你的網址)，並注意要選取Public選項，完成後點擊&quot;Create repository&quot;。</h3><h3 id="接下來你會看到這個畫面image" class="headerLink">
+    <a href="#%e6%8e%a5%e4%b8%8b%e4%be%86%e4%bd%a0%e6%9c%83%e7%9c%8b%e5%88%b0%e9%80%99%e5%80%8b%e7%95%ab%e9%9d%a2image" class="header-mark"></a>接下來你會看到這個畫面：<img class="tw-inline" loading="lazy" src='https://hackmd.io/_uploads/SJz6e3GT1l.png'   alt="image"  ></h3><h3 id="點擊image後上傳剛剛編輯完成的模板的檔案image" class="headerLink">
+    <a href="#%e9%bb%9e%e6%93%8aimage%e5%be%8c%e4%b8%8a%e5%82%b3%e5%89%9b%e5%89%9b%e7%b7%a8%e8%bc%af%e5%ae%8c%e6%88%90%e7%9a%84%e6%a8%a1%e6%9d%bf%e7%9a%84%e6%aa%94%e6%a1%88image" class="header-mark"></a>點擊<img class="tw-inline" loading="lazy" src='https://hackmd.io/_uploads/ByQCg3Gpyl.png'   alt="image"  >後上傳剛剛編輯完成的模板的檔案：<img class="tw-inline" loading="lazy" src='https://hackmd.io/_uploads/Ske1W2z6Je.png'   alt="image"  ></h3><h3 id="完成後點擊commit-changes後應該會長這樣image" class="headerLink">
+    <a href="#%e5%ae%8c%e6%88%90%e5%be%8c%e9%bb%9e%e6%93%8acommit-changes%e5%be%8c%e6%87%89%e8%a9%b2%e6%9c%83%e9%95%b7%e9%80%99%e6%a8%a3image" class="header-mark"></a>完成後點擊Commit Changes後應該會長這樣<img class="tw-inline" loading="lazy" src='https://hackmd.io/_uploads/Bk_1Wnfp1l.png'   alt="image"  ></h3><h3 id="如此便大功告成了github-pages會自動幫你部署會需要一點時間" class="headerLink">
+    <a href="#%e5%a6%82%e6%ad%a4%e4%be%bf%e5%a4%a7%e5%8a%9f%e5%91%8a%e6%88%90%e4%ba%86github-pages%e6%9c%83%e8%87%aa%e5%8b%95%e5%b9%ab%e4%bd%a0%e9%83%a8%e7%bd%b2%e6%9c%83%e9%9c%80%e8%a6%81%e4%b8%80%e9%bb%9e%e6%99%82%e9%96%93" class="header-mark"></a>如此便大功告成了，Github Pages會自動幫你部署(會需要一點時間)</h3><h3 id="如果你不想用githubio的網址格式可以購買網域例如向cloudflare購買後綁定dns便可用你的網域訪問網站了例如我的網址是makino-shirogithubio也可以用zergling73com來訪問我的網頁" class="headerLink">
+    <a href="#%e5%a6%82%e6%9e%9c%e4%bd%a0%e4%b8%8d%e6%83%b3%e7%94%a8githubio%e7%9a%84%e7%b6%b2%e5%9d%80%e6%a0%bc%e5%bc%8f%e5%8f%af%e4%bb%a5%e8%b3%bc%e8%b2%b7%e7%b6%b2%e5%9f%9f%e4%be%8b%e5%a6%82%e5%90%91cloudflare%e8%b3%bc%e8%b2%b7%e5%be%8c%e7%b6%81%e5%ae%9adns%e4%be%bf%e5%8f%af%e7%94%a8%e4%bd%a0%e7%9a%84%e7%b6%b2%e5%9f%9f%e8%a8%aa%e5%95%8f%e7%b6%b2%e7%ab%99%e4%ba%86%e4%be%8b%e5%a6%82%e6%88%91%e7%9a%84%e7%b6%b2%e5%9d%80%e6%98%afmakino-shirogithubio%e4%b9%9f%e5%8f%af%e4%bb%a5%e7%94%a8zergling73com%e4%be%86%e8%a8%aa%e5%95%8f%e6%88%91%e7%9a%84%e7%b6%b2%e9%a0%81" class="header-mark"></a>如果你不想用{.github.io}的網址格式，可以購買網域(例如向CloudFlare購買)後，綁定DNS便可用你的網域訪問網站了，例如我的網址是{Makino-Shiro.github.io}，也可以用{zergling73.com}來訪問我的網頁！</h3><h3 id="有任何問題也歡迎聯繫我" class="headerLink">
+    <a href="#%e6%9c%89%e4%bb%bb%e4%bd%95%e5%95%8f%e9%a1%8c%e4%b9%9f%e6%ad%a1%e8%bf%8e%e8%81%af%e7%b9%ab%e6%88%91" class="header-mark"></a>有任何問題也歡迎<a href="https://zergling73.com" target="_blank" rel="noopener noreferrer">聯繫我</a>！</h3></div>
+
+        <div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>更新於 2025-04-03</span>
+            </div>
+            <div class="post-info-license"></div>
+        </div>
+        <div class="post-info-line print:!tw-hidden">
+            <div class="post-info-md"></div>
+            <div class="post-info-share"></div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"></section>
+        <section class="print:!tw-hidden">
+            <span><button class="tw-text-fgColor-link-muted hover:tw-text-fgColor-link-muted-hover" onclick="window.history.back();">返回</button></span>&nbsp;|&nbsp;<span><a href="/hugo-blog/">主頁</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav print:tw-hidden">
+            <a href="/hugo-blog/posts/hello-world/" class="next" rel="next" title="Hello World">Hello World<svg class="icon"
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"/></svg></a></div>
+</div>
+</article></main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">
+                    &nbsp;|&nbsp;
+                </div><div class="footer-line"><svg class="icon"
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 448c-110.532 0-200-89.451-200-200 0-110.531 89.451-200 200-200 110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200zm107.351-101.064c-9.614 9.712-45.53 41.396-104.065 41.396-82.43 0-140.484-61.425-140.484-141.567 0-79.152 60.275-139.401 139.762-139.401 55.531 0 88.738 26.62 97.593 34.779a11.965 11.965 0 0 1 1.936 15.322l-18.155 28.113c-3.841 5.95-11.966 7.282-17.499 2.921-8.595-6.776-31.814-22.538-61.708-22.538-48.303 0-77.916 35.33-77.916 80.082 0 41.589 26.888 83.692 78.277 83.692 32.657 0 56.843-19.039 65.726-27.225 5.27-4.857 13.596-4.039 17.82 1.738l19.865 27.17a11.947 11.947 0 0 1-1.152 15.518z"/></svg>2025<span class="author">&nbsp;<a href="/hugo-blog/" target="_blank" rel="noopener noreferrer"></a></span></div>
+            <div class="footer-line"></div>
+            <div class="footer-line">
+            </div>
+        </div></footer><div class="print:!tw-hidden tw-flex tw-flex-col tw-fixed tw-right-4 tw-bottom-4 tw-gap-2"><a href="#back-to-top" id="back-to-top-button" class="tw-transition-opacity tw-opacity-0 tw-block tw-bg-bgColor-secondary tw-rounded-full" style="padding: 0.6rem; line-height: 1.3rem; font-size: 1rem;" title="回到頂部">
+      <svg class="icon"
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M34.9 289.5l-22.2-22.2c-9.4-9.4-9.4-24.6 0-33.9L207 39c9.4-9.4 24.6-9.4 33.9 0l194.3 194.3c9.4 9.4 9.4 24.6 0 33.9L413 289.4c-9.5 9.5-25 9.3-34.3-.4L264 168.6V456c0 13.3-10.7 24-24 24h-32c-13.3 0-24-10.7-24-24V168.6L69.2 289.1c-9.3 9.8-24.8 10-34.3.4z"/></svg>
+  </a>
+
+  <button id="toc-drawer-button" class="tw-block tw-bg-bgColor-secondary tw-rounded-full md:tw-hidden" style="padding: 0.6rem; line-height: 1.3rem; font-size: 1rem;">
+      <svg class="icon"
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"/></svg>
+  </button></div>
+
+<script>window.config={"comment":{}};</script><script
+    src="/hugo-blog/js/theme.min.js"
+    
+      defer
+    
+  ></script>
+
+<script type="speculationrules">
+  {
+    "prerender": [
+      {
+        "where": { "href_matches": "/*" },
+        "eagerness": "moderate"
+      }
+    ]
+  }
+</script>
+</body>
+
+</html>
