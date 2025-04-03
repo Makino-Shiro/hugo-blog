@@ -1,7 +1,7 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Tags - 標籤 - Zergling_73&#39;s Blog</title>
+        <title>Tags - 標籤 - Zergling&#39;s Blog</title>
         <link>https://Makino-Shiro.github.io/hugo-blog/tags/</link>
-        <description>Tags - 標籤 - Zergling_73&#39;s Blog</description>
+        <description>Tags - 標籤 - Zergling&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-tw</language><atom:link href="https://Makino-Shiro.github.io/hugo-blog/tags/" rel="self" type="application/rss+xml" /></channel>
 </rss>

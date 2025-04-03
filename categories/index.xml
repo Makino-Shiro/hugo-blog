@@ -1,7 +1,7 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Categories - 分類 - Zergling_73&#39;s Blog</title>
+        <title>Categories - 分類 - Zergling&#39;s Blog</title>
         <link>https://Makino-Shiro.github.io/hugo-blog/categories/</link>
-        <description>Categories - 分類 - Zergling_73&#39;s Blog</description>
+        <description>Categories - 分類 - Zergling&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-tw</language><atom:link href="https://Makino-Shiro.github.io/hugo-blog/categories/" rel="self" type="application/rss+xml" /></channel>
 </rss>
